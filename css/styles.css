@@ -17,11 +17,7 @@ body {
     margin: 0;
     font-size: 32px;
   }
-.banner-top, 
-.banner-bottom {
-  text-align: center;
-  margin: 20px 0;
-}
+
   
   nav {
     background: orange;
@@ -61,4 +57,5 @@ body {
   }
 a{
     color:white};
+
 
