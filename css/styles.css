@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -5,57 +6,102 @@ body {
     line-height: 1.6;
     background-color: white;
     color: black;
-  }
+}
 
-  header {
+
+header {
     background: red;
     color: white;
     padding: 20px;
     text-align: center;
-  }
-  header h1 {
+}
+
+header h1 {
     margin: 0;
     font-size: 32px;
-  }
+}
 
-  
-  nav {
+
+nav {
     background: orange;
     padding: 10px;
     text-align: center;
-  }
-  nav a {
+}
+
+nav a {
     color: white;
     margin: 0 10px;
     text-decoration: none;
     font-weight: bold;
-  }
-  nav a:hover {
+}
+
+nav a:hover {
     text-decoration: underline;
-  }
-  main {
+}
+
+
+main {
     padding: 20px;
     max-width: 900px;
     margin: auto;
-  }
-  h2 {
+}
+
+h2 {
     color: orange;
-  }
-  img {
+}
+
+
+img {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
-    margin: 20px 0;
-  }
-  footer {
+}
+
+
+.news-section p {
+    margin-bottom: 15px;
+}
+
+
+#picnic-spot p {
+    margin-bottom: 10px;
+}
+
+
+#whats-new div {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#whats-new img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 3px solid orange;
+}
+
+footer {
     text-align: center;
     background: black;
     color: white;
     padding: 15px;
     margin-top: 30px;
+}
 
-  }
-a{
-    color:white};
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
 
 
+div {
+    display: block;
+}
